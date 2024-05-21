@@ -37,9 +37,9 @@ let entries = [
   },
 ];
 
-app.get("/", (request, response) => {
-  response.send("<h1>Your Phone Book</h1>");
-});
+// app.get("/", (request, response) => {
+//   response.send("<h1>Your Phone Book</h1>");
+// });
 
 app.get("/info", (request, response) => {
   const currentTime = Date();
